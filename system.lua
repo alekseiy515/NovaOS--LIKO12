@@ -3,18 +3,14 @@ local back = "You can back to diskos press escape to get back"
 local start = "Press enter to start program in os memeory"
 local MOTD = "Welcome to NovaOS"
 --Beginning settings
-local buildmode = false --this directive using for programs when NovaOS loader in autoexec
+local autoexec = false --this directive using for programs when NovaOS loader in autoexec
 --Ending settings
 clear()
-if buildmode then
+if autoexec then
 print(MOTD)
 print("booting program")
-if fs.exists("program.lua") then
 dofile("program.lua")
 else
-print("program.lua not exists")
-
-
 print(MOTD)
 print(back)
 print(start)
@@ -38,4 +34,3 @@ end
          end
             end
                end
-                  end
