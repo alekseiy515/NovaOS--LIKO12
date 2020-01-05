@@ -10,7 +10,10 @@ for event, key in pullEvent do
 if event == "keypressed" then
 if key == "escape" then
 print("Welcome back user to DiskOS")
-halt()
+print("Liko-12 not supported back to diskos without crash")
+print("System is down in 30 sec please to be patient")
+sleep(30)
+shutdown()
 if key == "enter" then
 if fs.exists("program.lua") then
 dofile("program.lua")
@@ -22,8 +25,3 @@ end
       end
          end
             end
---Default fuction for halt system
-local function halt()
-print("the Liko-12 limits not grant you the shutdown key events system has shutdown with liko-12 shutdown")
-sleep(1)
-shutdown()
