@@ -1,9 +1,4 @@
 # NovaOS--LIKO12
-Operating system for your people
+Система для человеков
 
-This interface is simple
-To start program enter key
-To shutdown system escape key
-
-When autoexec mode is enabled
-Program is starting automate
+Интерфейс простой жми enter чтобы запускать прогу escape для выключения системы
