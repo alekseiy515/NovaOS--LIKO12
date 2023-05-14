@@ -22,7 +22,7 @@ print("Liko-12 not supported back to diskos without crash")
 print("System is down in 30 sec please to be patient")
 sleep(30)
 shutdown()
-if key == "enter" then
+if key == "return" then
 if fs.exists("program.lua") then
 dofile("program.lua")
 else
