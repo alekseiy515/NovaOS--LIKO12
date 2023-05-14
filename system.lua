@@ -25,7 +25,6 @@ shutdown()
 if key == "enter" then
 if fs.exists("program.lua") then
 dofile("program.lua")
-return
 else
 print("Program not exists in os memory")
 end
