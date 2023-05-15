@@ -18,10 +18,7 @@ for event, key in pullEvent do
 if event == "keypressed" then
 if key == "escape" then
 print("Welcome back user to DiskOS")
-print("Liko-12 not supported back to diskos without crash")
-print("System is down in 30 sec please to be patient")
-sleep(30)
-shutdown()
+return
 else
 if key == "return" then
 if fs.exists("program.lua") then
